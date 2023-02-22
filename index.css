@@ -1,23 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
 h1 {
+  font-family: "Gloock";
   border: 1px solid;
 text-align: center;
 margin-top: 0;
 background-color: bisque;
-padding:10%
+padding:5%
 }
 
 p {
+  font-family: Kanit;
   padding: 5px;
   border: 2px dashed coral;
   border-radius: 2px 8px 2px 8px;
 }
 
-a {
+/*a {
   display: inline-block;
   background-color: antiquewhite;
   text-decoration: none;
   padding: 5px;
   border: solid 1px black;
   border-radius: 100%;
-  ;
+}*/
+
+body {
+  background-color: lavender;
+}
+
+.image-button {
+  display: block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+
+#sonic-button {
+  background-image: url("sonic-lives.png");
+}
+
+#fazbear-button {
+  background-image: url(fazbear.png);
 }
