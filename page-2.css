@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
 h1 {
   border: 1px solid;
-text-align: center;
-margin-top: 0;
-background-color: bisque;
-padding:5%
+  text-align: center;
+  margin-top: 0;
+  background-color: bisque;
+  padding: 5%
 }
 
 p {
@@ -23,5 +27,14 @@ a {
 }
 
 body {
-  background-color: lavender;
+  background-color: rgb(19, 22, 22);
+}
+
+section {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: brown;
 }
